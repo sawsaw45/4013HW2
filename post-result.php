@@ -2,8 +2,10 @@
 $pageTitle = "Post Result";
 include "view-header.php";
 ?>
-    <h1>Post Result</h1>
+    <div class="container">
 
+    <h1>Post Result</h1>
+    </div>
 <?php
 echo  getDisplay();
 include "view-footer.php";
