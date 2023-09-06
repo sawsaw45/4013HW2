@@ -5,7 +5,7 @@ include "view-header.php";
     <div class="container">
 
     <h1>Post Result</h1>
-    </div>
+
 <?php
 echo  getDisplay();
 include "view-footer.php";
@@ -18,5 +18,6 @@ function getDisplay(){
         return "<p>Nothing posted to the page.</p>";
 
     }
+?> </div> <?php
 }
 ?>
